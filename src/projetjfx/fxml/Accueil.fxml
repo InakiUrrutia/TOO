@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="ScreenAccueil" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetjfx.controller.AccueilController">
+    <children>
+        <Button fx:id="btnPolicier" layoutX="263.0" layoutY="217.0" onAction="#handleBtnPolicier" text="Policier" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+        <Label fx:id="titre" layoutX="191.0" layoutY="40.0" minHeight="16" minWidth="69" text="Choix de connexion" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="btnPompier" layoutX="259.0" layoutY="127.0" onAction="#handleBtnPompier" text="Pompier" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="btnDeco" layoutX="425.0" layoutY="331.0" onAction="#handleBtnDeco" text="Deconnexion" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

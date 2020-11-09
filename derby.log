@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Dec 23 00:42:33 CET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0167-d84c-88a5-0000068dd638 
+on database directory C:\Users\Inaki\Documents\Cours L3\Technologie Orientée Objet\projetJFX\BCMS_database with class loader sun.misc.Launcher$AppClassLoader@55f96302 
+Loaded from file:/C:/Users/Inaki/Documents/Cours%20L3/Technologie%20Orient%c3%a9e%20Objet/projetJFX/dist/run903488540/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_181-b13
+user.dir=C:\Users\Inaki\Documents\Cours L3\Technologie Orientée Objet\projetJFX
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

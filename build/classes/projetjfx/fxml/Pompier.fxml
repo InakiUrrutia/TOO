@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projetjfx.controller.PompierController">
+   <children>
+      <Label fx:id="LblTitre" layoutX="192.0" layoutY="32.0" text="Connexion Pompiers" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnRetour" layoutX="51.0" layoutY="319.0" mnemonicParsing="false" onAction="#handleBtnRetour" text="Retour">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDeco" layoutX="51.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleBtnDeco" text="Deconnexion">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="LblNombreVoituresReq" layoutX="203.0" layoutY="72.0" text="Camions de pompier requis : " textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="nbVoituresPompier" layoutX="398.0" layoutY="72.0" text="2">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ListView fx:id="fire_truck_list" layoutX="51.0" layoutY="132.0" prefHeight="161.0" prefWidth="200.0" />
+      <Label fx:id="LblNombreVoituresDisp" layoutX="38.0" layoutY="113.0" text="Camions de pompier disponibles" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnValider" layoutX="416.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleBtnValider" text="Valider" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="LblRoutesDisp" layoutX="385.0" layoutY="113.0" text="Routes disponibles">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ListView fx:id="list_route" layoutX="347.0" layoutY="132.0" prefHeight="161.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
